@@ -1,0 +1,17 @@
+/**
+ * Sub build.gradle
+ */
+
+dependencies {
+    /**
+     * Bu sub module için gerekli olan kütüphaneleri ekledik.
+     */
+    implementation libs.springBootDataJpa
+    implementation libs.postgresql
+    implementation libs.springBootAmqp
+
+    /**
+     * Redis : Remote Dictionary Server
+     * Dictionary: Key-value şeklinde değer tutan bir veritabanı olduğu için.
+     */
+}

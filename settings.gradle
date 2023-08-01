@@ -1,0 +1,7 @@
+rootProject.name = 'NeredeyimBen'
+include 'UserMicroService'
+include 'ConfigServer'
+include 'SehirServis'
+include 'Tahminyonetimservice'
+include 'SkorYonetimi'
+
